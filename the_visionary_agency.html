@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Visionary Agency | Marketing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        gold: {
+                            DEFAULT: '#d4af37',
+                            light: '#e5c158',
+                            dark: '#aa8c2c',
+                        },
+                        dark: {
+                            100: '#1e1e1e',
+                            200: '#181818',
+                            300: '#121212',
+                            400: '#0a0a0a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom gold text gradient for special headings */
+        .text-gold-gradient {
+            background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px -10px rgba(212, 175, 55, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-[#050505] text-gray-200 font-sans antialiased selection:bg-gold selection:text-black">
+
+    <!-- Navbar / Header Section -->
+    <header class="py-16 px-6 text-center border-b border-white/5 relative overflow-hidden">
+        <!-- Subtle background glow -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-gold/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="w-28 h-28 mx-auto mb-8 overflow-hidden rounded-2xl drop-shadow-[0_0_15px_rgba(212,175,55,0.3)]">
+                <img src="photo_2_2026-10-20_13-36-52.jpg" alt="The Visionary Agency eye-and-arrow logo" class="h-full w-full scale-125 object-cover">
+            </div>
+
+            <h1 class="text-4xl md:text-5xl font-light tracking-[0.3em] text-white uppercase mb-4 font-serif">
+                <span class="block text-sm tracking-[0.4em] text-gray-400 mb-2">The</span>
+                Visionary
+                <span class="block text-lg tracking-[0.5em] mt-4 border-t border-b border-white/20 py-2 inline-block">Agency</span>
+            </h1>
+            <p class="text-sm md:text-base font-semibold tracking-[0.25em] text-gold uppercase mt-6">Social Media Management</p>
+            <p class="text-xs tracking-[0.3em] text-gray-400 uppercase mt-6">Marketing &nbsp;&bull;&nbsp; Est. 2026</p>
+        </div>
+    </header>
+
+    <!-- Partner Packages Section -->
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="mb-16">
+            <h2 class="text-4xl md:text-5xl font-serif text-white mb-4">Partner Packages.<br><span class="text-gold">Built to Grow With You.</span></h2>
+            <p class="text-gray-400 text-lg">Three tiers. One goal — become your ongoing digital department.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            
+            <!-- Starter Card -->
+            <div class="bg-dark-300 border border-white/10 rounded-xl p-8 card-hover flex flex-col mt-4 md:mt-8">
+                <div class="mb-8 border-b border-white/10 pb-8">
+                    <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-2">Starter Partner</p>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-4xl font-light text-white">R2,900</span>
+                        <span class="text-sm text-gray-500">/month</span>
+                    </div>
+                </div>
+                <div class="space-y-6 flex-grow">
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Social Platforms</h4>
+                        <p class="text-sm text-gray-300">1 (Facebook or Instagram)</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Posts / Week</h4>
+                        <p class="text-sm text-gray-300">3 posts</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Stories / Reels</h4>
+                        <p class="text-sm text-gray-500">&mdash;</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Community Mgmt</h4>
+                        <p class="text-sm text-gray-500">&mdash;</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Content Creation</h4>
+                        <p class="text-sm text-gray-300">Basic graphics from client assets</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Hashtag Strategy</h4>
+                        <p class="text-sm text-gray-300">Standard research</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Reporting</h4>
+                        <p class="text-sm text-gray-300">Monthly PDF</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Ad Management</h4>
+                        <p class="text-sm text-gray-500">&mdash;</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Growth Card (Most Popular) -->
+            <div class="bg-dark-200 border-2 border-gold rounded-xl p-8 relative card-hover flex flex-col shadow-[0_0_30px_rgba(212,175,55,0.1)] z-10 md:-translate-y-4">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gold text-black text-xs font-bold uppercase tracking-widest py-1.5 px-4 rounded-sm">
+                    Most Popular
+                </div>
+                <div class="mb-8 border-b border-white/10 pb-8 mt-2">
+                    <p class="text-sm font-semibold tracking-widest text-gold uppercase mb-2">Growth Partner</p>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-5xl font-light text-white">R3,900</span>
+                        <span class="text-sm text-gray-500">/month</span>
+                    </div>
+                </div>
+                <div class="space-y-6 flex-grow">
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Social Platforms</h4>
+                        <p class="text-sm text-gray-300">2 platforms</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Posts / Week</h4>
+                        <p class="text-sm text-gray-300">5 posts</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Stories / Reels</h4>
+                        <p class="text-sm text-gray-300">2 per week</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Community Mgmt</h4>
+                        <p class="text-sm text-gray-300">Replies to comments/DMs (business hrs)</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Content Creation</h4>
+                        <p class="text-sm text-gray-300">Custom graphics + short-form edits</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Hashtag Strategy</h4>
+                        <p class="text-sm text-gray-300">Tailored per platform</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Reporting</h4>
+                        <p class="text-sm text-gray-300">Monthly PDF + 15-min call</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Ad Management</h4>
+                        <p class="text-sm text-gray-500">&mdash;</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premier Card -->
+            <div class="bg-dark-300 border border-white/10 rounded-xl p-8 card-hover flex flex-col mt-4 md:mt-8">
+                <div class="mb-8 border-b border-white/10 pb-8">
+                    <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-2">Premier Partner</p>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-4xl font-light text-white">R4,800</span>
+                        <span class="text-sm text-gray-500">/month</span>
+                    </div>
+                </div>
+                <div class="space-y-6 flex-grow">
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Social Platforms</h4>
+                        <p class="text-sm text-gray-300">2 + 1 extra (TikTok/LinkedIn)</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Posts / Week</h4>
+                        <p class="text-sm text-gray-300">7 posts</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Stories / Reels</h4>
+                        <p class="text-sm text-gray-300">4 per week</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Community Mgmt</h4>
+                        <p class="text-sm text-gray-300">+ DM mgmt + review responses</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Content Creation</h4>
+                        <p class="text-sm text-gray-300">Full custom design + Reels/TikTok edits</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Hashtag Strategy</h4>
+                        <p class="text-sm text-gray-300">Advanced + trend monitoring</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Reporting</h4>
+                        <p class="text-sm text-gray-300">Monthly PDF + 30-min strategy call</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-1">Ad Management</h4>
+                        <p class="text-sm text-gray-300">Setup + manage (ad spend billed sep.)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-20 px-6 max-w-6xl mx-auto border-t border-white/5">
+        <h3 class="text-sm font-bold tracking-[0.2em] text-gold uppercase mb-12">How It Works</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="border-l-2 border-white/10 pl-6 relative">
+                <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-dark-400 border-2 border-gold"></div>
+                <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-2">Month 1</h4>
+                <h5 class="text-xl font-semibold text-white mb-3">Onboard + Strategy</h5>
+                <p class="text-sm text-gray-400 leading-relaxed">Brand deep-dive, content pillars, calendar approval.</p>
+            </div>
+            
+            <div class="border-l-2 border-white/10 pl-6 relative">
+                <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-dark-400 border-2 border-gold"></div>
+                <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-2">Month 2</h4>
+                <h5 class="text-xl font-semibold text-white mb-3">Launch + Post</h5>
+                <p class="text-sm text-gray-400 leading-relaxed">Content goes live. Community management active.</p>
+            </div>
+            
+            <div class="border-l-2 border-white/10 pl-6 relative">
+                <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-dark-400 border-2 border-gold"></div>
+                <h4 class="text-xs font-bold text-gold tracking-wider uppercase mb-2">Month 3-12</h4>
+                <h5 class="text-xl font-semibold text-white mb-3">Manage + Grow</h5>
+                <p class="text-sm text-gray-400 leading-relaxed">Optimise, report, scale. We become your social team.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section (Onboarding Options) -->
+    <section class="py-24 px-6 border-t border-white/5 bg-dark-400">
+        <div class="max-w-6xl mx-auto">
+            
+            <div class="text-center mb-16">
+                <div class="w-16 h-16 mx-auto mb-6 overflow-hidden rounded-xl opacity-90">
+                    <img src="photo_2_2026-10-20_13-36-52.jpg" alt="The Visionary Agency eye-and-arrow logo" class="h-full w-full scale-125 object-cover">
+                </div>
+                
+                <h2 class="text-3xl md:text-4xl font-serif text-white tracking-widest uppercase mb-4">Pricing</h2>
+                <p class="text-gray-400">Three ways to work with us. Transparent fees. Predictable monthly retainers.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+                
+                <!-- Standard Onboarding -->
+                <div class="bg-dark-200 border border-white/10 rounded-xl p-8 text-center card-hover flex flex-col mt-4 md:mt-8">
+                    <h3 class="text-lg font-bold text-gold tracking-widest uppercase mb-2">Standard</h3>
+                    <p class="text-xs text-gray-400 mb-6">Build included in monthly</p>
+                    
+                    <div class="mb-6 relative">
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0">
+                            <span class="bg-dark-200 px-2 relative z-10">Upfront Fee</span>
+                        </span>
+                        <hr class="border-white/10 relative top-1/2 z-0">
+                    </div>
+                    
+                    <div class="mb-8">
+                        <span class="text-4xl font-light text-white block">R0</span>
+                        <span class="text-xs text-gray-500">upfront</span>
+                    </div>
+
+                    <div class="mb-6 relative">
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0">
+                            <span class="bg-dark-200 px-2 relative z-10">Monthly After</span>
+                        </span>
+                        <hr class="border-white/10 relative top-1/2 z-0">
+                    </div>
+                    
+                    <div class="mb-8">
+                        <span class="text-2xl font-semibold text-gold block mb-1">R2,900 - R4,800</span>
+                        <span class="text-xs text-gray-500">per month</span>
+                    </div>
+
+                    <ul class="text-sm text-gray-300 text-left space-y-4 flex-grow">
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            Full build included at no upfront cost
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            Ongoing management & optimisation
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            Best for steady, long-term growth
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Fast-Track (Highlighted) -->
+                <div class="bg-[#111] border-2 border-gold rounded-xl p-8 text-center relative shadow-[0_0_20px_rgba(212,175,55,0.08)] card-hover flex flex-col z-10 md:-translate-y-4">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gold text-black text-[10px] font-bold uppercase tracking-widest py-1 px-4 rounded-sm">
+                        Most Popular
+                    </div>
+                    
+                    <h3 class="text-lg font-bold text-gold tracking-widest uppercase mb-2 mt-2">Fast-Track</h3>
+                    <p class="text-xs text-gray-400 mb-6">Rush the build</p>
+                    
+                    <div class="mb-6 relative">
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0">
+                            <span class="bg-[#111] px-2 relative z-10">Upfront Fee</span>
+                        </span>
+                        <hr class="border-white/10 relative top-1/2 z-0">
+                    </div>
+                    
+                    <div class="mb-8">
+                        <span class="text-5xl font-light text-white block">R3,500</span>
+                        <span class="text-xs text-gray-500">upfront</span>
+                    </div>
+
+                    <div class="mb-6 relative">
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0">
+                            <span class="bg-[#111] px-2 relative z-10">Monthly After</span>
+                        </span>
+                        <hr class="border-white/10 relative top-1/2 z-0">
+                    </div>
+                    
+                    <div class="mb-8">
+                        <span class="text-2xl font-semibold text-gold block mb-1">R2,900 - R4,800</span>
+                        <span class="text-xs text-gray-500">per month</span>
+                    </div>
+
+                    <ul class="text-sm text-gray-300 text-left space-y-4 flex-grow">
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            Priority build queue & delivery
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            Same ongoing monthly management
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            For launches with a hard deadline
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Buyout -->
+                <div class="bg-dark-200 border border-white/10 rounded-xl p-8 text-center card-hover flex flex-col mt-4 md:mt-8">
+                    <h3 class="text-lg font-bold text-gold tracking-widest uppercase mb-2">Buyout</h3>
+                    <p class="text-xs text-gray-400 mb-6">You own it from Day 1</p>
+                    
+                    <div class="mb-6 relative">
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0">
+                            <span class="bg-dark-200 px-2 relative z-10">Upfront Fee</span>
+                        </span>
+                        <hr class="border-white/10 relative top-1/2 z-0">
+                    </div>
+                    
+                    <div class="mb-8">
+                        <span class="text-4xl font-light text-white block">R8,500</span>
+                        <span class="text-xs text-gray-500">upfront</span>
+                    </div>
+
+                    <div class="mb-6 relative">
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0">
+                            <span class="bg-dark-200 px-2 relative z-10">Monthly After</span>
+                        </span>
+                        <hr class="border-white/10 relative top-1/2 z-0">
+                    </div>
+                    
+                    <div class="mb-8">
+                        <span class="text-xl font-semibold text-gold block mb-1">R1,500 - R2,500</span>
+                        <span class="text-xs text-gray-500">management only</span>
+                    </div>
+
+                    <ul class="text-sm text-gray-300 text-left space-y-4 flex-grow">
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            Full ownership from day one
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            Lower monthly — management only
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-gold mt-1 text-xs">&bull;</span>
+                            For teams who want the asset outright
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-14">
+                <a href="https://tally.so/r/X5xGYe" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-md bg-gold px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-black transition-colors hover:bg-gold-light focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-dark-400">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/5 bg-[#000] py-8 px-6 text-xs text-gray-500 flex flex-col md:flex-row justify-between items-center gap-4 max-w-6xl mx-auto">
+        <div class="text-center md:text-left">
+            <p>Monthly ranges reflect scope, ad spend management and reporting cadence.</p>
+            <p>All prices in ZAR. Excludes third-party ad spend and licensing.</p>
+        </div>
+        <div class="text-center md:text-right">
+            <p class="font-bold text-white uppercase tracking-wider mb-1">The Visionary Agency</p>
+            <a href="mailto:thevisionaryagency@gmail.com" class="hover:text-gold transition-colors">thevisionaryagency@gmail.com</a>
+        </div>
+    </footer>
+
+</body>
+</html>
